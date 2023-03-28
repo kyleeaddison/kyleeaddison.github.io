@@ -1,0 +1,27 @@
+#div_1{
+    border: 5px solid pink;
+}
+#div_2{
+    border: 20px dashed purple;
+    padding: 12px;
+    margin: 35px;
+}
+#div_3{
+    border: 10px dotted blueviolet;
+    padding: 25px;
+    margin: 64px;
+}
+#div_4{
+    border: 8px solid salmon;
+    padding: 24px;
+    margin: 72px;
+}
+#div_5{
+    background-color: palevioletred;
+    color: palegreen;
+}
+#div_6{
+    border: 3px solid skyblue;
+    padding-left: 40px;
+    margin: 54px 12px;
+}
