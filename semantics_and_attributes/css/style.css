@@ -43,3 +43,7 @@ h3 {
 h4 {
     color: white;
 }
+#image_container {
+    float: left;
+    padding-right: 24px;
+}
