@@ -1,0 +1,35 @@
+.box {
+    border: 3px solid gray;
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    background-color: pink;
+    margin: 12px;
+}
+.flexbox {
+    display: flex;
+    border: 3px solid gray;
+    background-color: rgb(124, 228, 124);
+    margin: 24px;
+}
+.column {
+    flex-direction: column;
+}
+.right {
+    justify-content: flex-start;
+}
+.left {
+    justify-content: flex-end;
+}
+.center {
+    justify-content: center;
+}
+.space_between {
+    justify-content: space-between;
+}
+.space_around {
+    justify-content: space-around;
+}
+.space_evenly {
+    justify-content: space-evenly;
+}
