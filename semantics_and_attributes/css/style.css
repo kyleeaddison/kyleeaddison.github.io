@@ -1,9 +1,10 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: #62beff;
 }
 header {
-    background-color: salmon;
+    background-color: palevioletred;
     padding: 36px;
 }
 h1 {
@@ -18,11 +19,27 @@ nav a {
     box-align: left;
 }
 footer {
-    background-color: salmon;
+    background-color: palevioletred;
     padding: 36px;
+    text-align: center;
+    color: white;
+    font-size: 10px;
 }
 .card {
     margin: 24px;
     border: 3px solid blue;
     padding: 16px;
+    box-shadow: 4px 4px 8px 2px plum;
+    background-color: palevioletred;
+    color: white;
+}
+.card img {
+    width: 200px;
+}
+h3 {
+    padding-left: 30px;
+    color: white;
+}
+h4 {
+    color: white;
 }
