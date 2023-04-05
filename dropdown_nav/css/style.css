@@ -41,6 +41,7 @@ li a {
         top 0.5s;
 }
 .dropdown_container:hover .dropdown_menu {
+    top: 100%;
     opacity: 1;
     visibility: visible;
 }
