@@ -47,11 +47,11 @@ h2 {
     color: pink;
 }
 #album img {
-    width: 100%;
+    width: 200px;
     padding: 1px;
 }
 #album2 img {
-    width: 100%;
+    width: 200px;
     padding: 1px;
 }
 h3 {
@@ -87,5 +87,11 @@ div {
 @media only screen and (max-width: 768px){
     ul {
         flex-direction: column;
+    }
+    #album img {
+        width: 100%;
+    }
+    #album2 img {
+        width: 100%;
     }
 }
