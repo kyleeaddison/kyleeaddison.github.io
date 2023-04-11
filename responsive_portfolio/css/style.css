@@ -87,7 +87,7 @@ nav {
 }
 
 #gallery_container {
-    grid-area: gallery_container;
+    grid-area: gallery_area;
 }
 
 #two_cards {
