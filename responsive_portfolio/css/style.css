@@ -246,7 +246,7 @@ footer ul {
     object-fit: cover;
 }
 
-gallery_3 {
+#gallery_3 {
     display: flex;
     flex-wrap: wrap;
 }
@@ -280,7 +280,7 @@ gallery_3 {
     margin-bottom: 24px;
 }
 
-gallery_6 {
+#gallery_6 {
     display: flex;
     flex-wrap: wrap;
 }
