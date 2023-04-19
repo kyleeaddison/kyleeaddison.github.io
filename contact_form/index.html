@@ -14,7 +14,7 @@
                 <h5>Got a question? We'd love to hear from you. Send us a message and we'll respond as soon as possible.</h5>
             </header>
             <main>
-                <form>
+                <form method="POST" action="https://getform.io/f/9d2b7593-4c6b-4121-b266-5f523adb461d">
                         <div>
                             <label for="help">
                                 What can we help you with?
@@ -27,15 +27,24 @@
                         </div>
                         <div>
                             <label for="nameid">Name</label>
-                            <input type="text" name="name" id="nameid">
+                            <input 
+                            required minlength="1"
+                            maxlength="10"
+                            type="text" name="name" id="nameid">
                         </div>
                         <div>
                             <label for="emailid">Email</label>
-                            <input type="email" name="email" id="emailid">
+                            <input 
+                            required minlength="1"
+                            maxlength="35"
+                            type="email" name="email" id="emailid">
                         </div>
                         <div>
                             <label for="messageid">Message</label>
-                            <input type="text" name="message" id="messageid">
+                            <input 
+                            required minlength="1"
+                            maxlength="1000"
+                            type="text" name="message" id="messageid">
                         </div>
                         <div>
                             <input type="submit" value="Send" id="sendid">
