@@ -1,0 +1,137 @@
+#grid_container {
+    display: grid;
+    grid-template-columns: 1fr 600px 1fr;
+    grid-template-areas:
+        ". header_area ."
+        ". main_area .";
+}
+
+header {
+    grid-area: header_area;
+}
+
+main {
+    grid-area: main_area;
+}
+
+body {
+    background-color: #FAFAFA;
+}
+
+form {
+    background-color: white;
+    border: 2px solid #CCCCCC;
+    padding: 36px;
+    font-weight: 650;
+}
+
+select {
+    width: 100%;
+    padding: 12px;
+    margin:  12px 0px 10px;
+}
+
+#fname {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 12px;
+    margin:  12px 0px 10px;
+    border: solid lightgray 1px;
+}
+
+#lname {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 12px;
+    margin:  12px 0px 10px;
+    border: solid lightgray 1px;
+}
+
+#emailid {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    margin:  12px 0px 10px;
+    border: solid lightgray 1px;
+}
+
+#password {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    margin:  12px 0px 10px;
+    border: solid lightgray 1px;
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h5 {
+    text-align: center;
+}
+
+#signupid {
+    background-color: rgb(15, 184, 15);
+    border: none;
+    color: white;
+    padding: 10px;
+}
+
+.head {
+    color: gray;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#names {
+    display: flex;
+}
+
+#password {
+    width: 100%
+}
+
+#emailid {
+    width: 100%;
+}
+
+img {
+    height: 100px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 12px;
+    color: rgb(179, 177, 177);
+    font-weight: 500;
+}
+
+#birthday {
+    display: flex;
+    margin: 12px;
+}
+
+#gender {
+    display: flex;
+    font-family: sans-serif;
+    border: solid lightgray 1px;
+}

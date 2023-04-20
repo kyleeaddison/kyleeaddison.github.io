@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>FB Sign Up</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <section id="grid_container">
+            <header>
+                <img src="images/fb_logo.svg" class="center">
+            </header>
+            <main>
+                <form method="POST" action="https://getform.io/f/9d2b7593-4c6b-4121-b266-5f523adb461d">
+                        <div>
+                            <label for="help">
+                                <h1>Create a new account</h1>
+                                <p class="head">It's quick and easy.</p>
+                                <hr>
+                            </label>
+                        </div>
+                        <div id="names">
+                            <label for="fname"> </label>
+                            <input 
+                            required minlength="1"
+                            maxlength="12"
+                            type="text" name="name" id="fname" placeholder="First name">
+                            <label for="lname"></label>
+                            <input 
+                            required minlength="1"
+                            maxlength="12"
+                            type="text" name="name" id="lname" placeholder="Last name">
+                        </div>
+                        <div>
+                            <label for="emailid"></label>
+                            <input 
+                            required minlength="1"
+                            maxlength="35"
+                            type="email" name="email" id="emailid" placeholder="Mobile number or email ">
+                        </div>
+                        <div>
+                            <label for="password"></label>
+                            <input 
+                            required minlength="1"
+                            maxlength="15"
+                            type="text" name="password" id="password" placeholder="New password">
+                        </div>
+                        <p>Birthday</p>
+                        <div id="birthday">
+                            <label for="birthday">
+                            </label>
+                            <select id="birthday" name="birthday">
+                                <option value="jan">Jan</option>
+                                <option value="feb">Feb</option>
+                                <option value="mar">Mar</option>
+                            </select>
+                            <select id="birthday" name="birthday">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                            <select id="birthday" name="birthday">
+                                <option value="2021">2021</option>
+                                <option value="2022">2022</option>
+                                <option value="2023">2023</option>
+                            </select>
+                            </div>
+                            <p>Gender</p>
+                            <div id="gender">
+                                <input type="radio" id="female" name="gender" value="female">
+                                <label for="female_radio">Female</label>
+                            </div>
+                            <div id="gender">
+                                <input type="radio" id="male" name="gender" value="Male">
+                                <label for="male_radio">Male</label>
+                            </div>
+                            <div id="gender">
+                                <input type="radio" id="custom" name="gender" value="custom">
+                                <label for="custom_radio">Custom</label>
+                            </div>
+                        <div>
+                            <input type="submit" value="Sign Up" id="signupid" class="button">
+                        </div>
+                </form>
+            </main>
+        </section>
+    </body>
+</html>
