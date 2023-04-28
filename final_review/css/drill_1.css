@@ -1,0 +1,22 @@
+/* Task 1 - Write your code solution below */
+#t1_div1, 
+#t1_div2, 
+#t1_div3 {
+    display: inline-block;
+}
+
+/* Task 2 - Write your code solution below */
+#t2_span1,
+#t2_span2,
+#t2_span3 {
+    display: flex;
+}
+
+/* Task 3 - Write your code solution below */
+.t3_span_red {
+    display: flex;
+}
+
+.t3_span_blue {
+    display: inline-block;
+}
